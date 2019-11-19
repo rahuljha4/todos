@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title')
+    Create ToDo
+@endsection
 
 @section('content')
     <h1 class='text-center my-5'>Create To Do</h1>

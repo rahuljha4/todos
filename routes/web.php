@@ -32,3 +32,12 @@ Route::get('new-todo', 'ToDosController@create');
 
 //Route for saving To Do page
 Route::post('save-todo', 'ToDosController@store');
+
+//Route for getting To Do
+Route::get('/todos/{todo}/edit', 'ToDosController@edit');
+
+//Route for updating To Do deatils
+Route::post('todos/{todo}/update-todos', 'TodosController@update');
+
+//Route for deleting To Do
+Route::get('todos/{todo}/delete', 'TodosController@destory');
