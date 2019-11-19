@@ -27,4 +27,8 @@ Route::get('todos', 'ToDosController@index');
 
 Route::get('todos/{todo}', 'ToDosController@show');
 
+//Route for create To Do page
 Route::get('new-todo', 'ToDosController@create');
+
+//Route for saving To Do page
+Route::post('save-todo', 'ToDosController@store');
