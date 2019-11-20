@@ -41,3 +41,6 @@ Route::post('todos/{todo}/update-todos', 'TodosController@update');
 
 //Route for deleting To Do
 Route::get('todos/{todo}/delete', 'TodosController@destory');
+
+//Route for deleting To Do
+Route::get('todos/{todo}/complete', 'TodosController@complete');
